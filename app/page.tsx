@@ -246,74 +246,89 @@ export default function Home() {
     </div>
   </div>
 </section>
-<section className="bg-[#f7f1df] py-24">
-  <div className="mx-auto max-w-[1800px] px-6 sm:px-8 lg:px-10">
-
+<section className="overflow-hidden bg-[#f7f1df] py-16 sm:py-20 md:py-24">
+  <div className="mx-auto w-full max-w-[1800px] px-5 sm:px-8 lg:px-10">
     {/* Titolo */}
-    <div className="mx-auto mb-20 max-w-5xl text-center">
-      <h2 className="font-serif text-5xl font-bold text-gray-900 md:text-6xl">
-        L'arte della danza, vissuta con passione e professionalità
+    <div className="mx-auto mb-14 max-w-5xl text-center sm:mb-20">
+      <h2 className="break-words font-serif text-4xl font-bold leading-[1.05] text-gray-900 sm:text-5xl md:text-6xl">
+        L&apos;arte della danza, vissuta con passione e professionalità
       </h2>
 
-      <p className="mt-8 text-2xl leading-relaxed text-gray-700">
+      <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-700 sm:mt-8 sm:text-xl md:text-2xl">
         Ecco tre motivi per cui scegliere i miei corsi e i miei spettacoli.
       </p>
     </div>
 
     {/* Card */}
-    <div className="grid gap-10 md:grid-cols-3">
-
+    <div className="grid w-full gap-8 md:grid-cols-3 md:gap-10">
       {/* Colonna 1 */}
-      <div className="rounded-3xl bg-white p-10 shadow-xl">
-        <h3 className="mb-8 text-center font-serif text-3xl font-bold text-yellow-700">
+      <div className="min-w-0 rounded-3xl bg-white p-7 shadow-xl sm:p-10">
+        <h3 className="mb-8 break-words text-center font-serif text-3xl font-bold leading-tight text-yellow-700">
           Corsi di Samba
         </h3>
 
-        <ul className="space-y-6 text-lg leading-relaxed text-gray-700">
-          <li>• Studierai il ritmo, la musicalità e la tradizione del samba, rispettando i tuoi tempi di apprendimento.</li>
-
-          <li>• Migliorerai la postura, la coordinazione e la tonicità muscolare già dalle prime lezioni.</li>
-
-          <li>• Un percorso che valorizza la tua personalità, favorendo crescita, energia e benessere.</li>
+        <ul className="space-y-6 text-base leading-relaxed text-gray-700 sm:text-lg">
+          <li>
+            • Studierai il ritmo, la musicalità e la tradizione del samba,
+            rispettando i tuoi tempi di apprendimento.
+          </li>
+          <li>
+            • Migliorerai la postura, la coordinazione e la tonicità muscolare
+            già dalle prime lezioni.
+          </li>
+          <li>
+            • Un percorso che valorizza la tua personalità, favorendo crescita,
+            energia e benessere.
+          </li>
         </ul>
       </div>
 
       {/* Colonna 2 */}
-      <div className="rounded-3xl bg-white p-10 shadow-xl">
-       <h3 className="mb-8 text-center font-serif text-3xl font-bold text-yellow-700">
-  Spettacoli di
-  <br />
-  <span className="text-yellow-700">
-    Danza del Ventre e Samba
-  </span>
-</h3>
+      <div className="min-w-0 rounded-3xl bg-white p-7 shadow-xl sm:p-10">
+        <h3 className="mb-8 break-words text-center font-serif text-3xl font-bold leading-tight text-yellow-700">
+          Spettacoli di
+          <br />
+          Danza del Ventre e Samba
+        </h3>
 
-        <ul className="space-y-6 text-lg leading-relaxed text-gray-700">
-          <li>• Performance coinvolgenti, capaci di emozionare e catturare il pubblico.</li>
-
-          <li>• Coreografie curate nei minimi dettagli, con eleganza e forte presenza scenica.</li>
-
-          <li>• Spettacoli personalizzati per valorizzare matrimoni, eventi privati e occasioni speciali.</li>
+        <ul className="space-y-6 text-base leading-relaxed text-gray-700 sm:text-lg">
+          <li>
+            • Performance coinvolgenti, capaci di emozionare e catturare il
+            pubblico.
+          </li>
+          <li>
+            • Coreografie curate nei minimi dettagli, con eleganza e forte
+            presenza scenica.
+          </li>
+          <li>
+            • Spettacoli personalizzati per valorizzare matrimoni, eventi
+            privati e occasioni speciali.
+          </li>
         </ul>
       </div>
 
       {/* Colonna 3 */}
-      <div className="rounded-3xl bg-white p-10 shadow-xl">
-        <h3 className="mb-8 text-center font-serif text-3xl font-bold text-yellow-700">
+      <div className="min-w-0 rounded-3xl bg-white p-7 shadow-xl sm:p-10">
+        <h3 className="mb-8 break-words text-center font-serif text-3xl font-bold leading-tight text-yellow-700">
           Corsi di Danza del Ventre
         </h3>
 
-        <ul className="space-y-6 text-lg leading-relaxed text-gray-700">
-          <li>• Svilupperai consapevolezza corporea ed espressività attraverso il movimento.</li>
-
-          <li>• Acquisirai maggiore sicurezza, femminilità e libertà di espressione.</li>
-
-          <li>• Studierai tecnica, cultura e crescita personale in un percorso completo.</li>
+        <ul className="space-y-6 text-base leading-relaxed text-gray-700 sm:text-lg">
+          <li>
+            • Svilupperai consapevolezza corporea ed espressività attraverso il
+            movimento.
+          </li>
+          <li>
+            • Acquisirai maggiore sicurezza, femminilità e libertà di
+            espressione.
+          </li>
+          <li>
+            • Studierai tecnica, cultura e crescita personale in un percorso
+            completo.
+          </li>
         </ul>
       </div>
-
     </div>
-
   </div>
 </section>
 
