@@ -214,7 +214,7 @@ export default function Home() {
       <div className="group overflow-hidden rounded-3xl bg-[#1a1a1a] shadow-2xl">
         <div className="overflow-hidden">
           <img
-            src="/images/foto8.jpg"
+            src="/images/foto7.jpg"
             alt="Spettacoli"
             className="h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
           />
