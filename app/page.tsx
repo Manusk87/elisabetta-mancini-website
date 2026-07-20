@@ -112,25 +112,27 @@ export default function Home() {
       />
     </div>
 
-   {/* TESTO CENTRALE */}
+{/* TESTO CENTRALE */}
 <div className="text-center">
 
-<p
-  className={`mt-10 font-serif text-base sm:text-lg md:text-2xl ${bodyFont.className}`}
->
+  <p
+    className={`mt-10 font-serif text-base leading-relaxed text-gray-700 sm:text-lg md:text-2xl ${bodyFont.className}`}
+  >
     Sono un'insegnante e performer di danza del ventre e samba brasiliano
     a Perugia dal 2010.
   </p>
 
   <p
-    className={`mt-8 font-serif text-base sm:text-lg md:text-2xl ${bodyFont.className}`}>
-  
+    className={`mt-8 font-serif text-base leading-relaxed text-gray-700 sm:text-lg md:text-2xl ${bodyFont.className}`}
+  >
     Con anni di esperienza, organizzo corsi per tutti i livelli,
     spettacoli ed esibizioni artistiche per matrimoni,
     eventi privati e serate speciali in tutta Italia.
   </p>
 
-  <p className={`mt-8 font-serif text-base sm:text-lg md:text-2xl ${bodyFont.className}`}>
+  <p
+    className={`mt-8 font-serif text-base leading-relaxed text-gray-700 sm:text-lg md:text-2xl ${bodyFont.className}`}
+  >
     La mia missione è trasmettere attraverso la danza benessere,
     energia ed espressione personale.
     Nei miei corsi accompagno ogni allieva in un percorso di crescita,
@@ -139,14 +141,12 @@ export default function Home() {
   </p>
 
   <div className="mt-12 flex flex-wrap justify-center gap-4">
-   
-
-   <Link
-  href="/contatti"
-  className="rounded border border-black px-8 py-4 font-semibold text-black transition hover:bg-black hover:text-white"
->
-  Contatti
-</Link>
+    <Link
+      href="/contatti"
+      className="rounded border border-black px-8 py-4 font-semibold text-black transition hover:bg-black hover:text-white"
+    >
+      Contatti
+    </Link>
   </div>
 </div>
 
