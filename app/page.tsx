@@ -242,7 +242,7 @@ export default function Home() {
         playsInline
         controls
       >
-        <source src="/videos/videococca.mp4" type="video/mp4" />
+        <source src="/videos/Videococca.mp4" type="video/mp4" />
         Il tuo browser non supporta il video.
       </video>
     </div>
