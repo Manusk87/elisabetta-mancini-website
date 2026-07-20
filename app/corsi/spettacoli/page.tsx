@@ -89,7 +89,7 @@ export default function Spettacoli() {
 
       {/* HERO */}
 <section
-  className="relative flex min-h-[75vh] items-center overflow-hidden bg-black bg-cover bg-no-repeat text-white bg-[position:72%_75%] md:bg-center"
+  className="relative flex min-h-[75vh] items-center overflow-hidden bg-black bg-cover bg-no-repeat text-white bg-[position:20%_75%] md:bg-center"
   style={{
     backgroundImage:
       "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.72)), url('/images/foto7.jpg')",
