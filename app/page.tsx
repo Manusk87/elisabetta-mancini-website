@@ -115,7 +115,6 @@ export default function Home() {
    {/* TESTO CENTRALE */}
 <div className="text-center">
 
-//Add bodyFont className to paragraphs for consistent typography
   <p className={`mt-10 font-serif text-2xl leading-relaxed text-gray-700 md:text-2xl ${bodyFont.className}`}>
     Sono un'insegnante e performer di danza del ventre e samba brasiliano
     a Perugia dal 2010.
@@ -161,17 +160,17 @@ export default function Home() {
 
      {/* SERVIZI */}
 <section className="bg-[#111] py-24 text-white">
- <div className="mx-auto max-w-[1800px] px-4">
+<div className="mx-auto max-w-[1800px] px-6 sm:px-8 lg:px-10">
 
     <div className="mb-16 text-center">
      
 
-      <h2 className={`font-serif text-5xl font-bold `}>
+      <h2 className="font-serif text-4xl font-bold leading-tight sm:text-5xl">
         I miei servizi
       </h2>
     </div>
 
-   <div className="grid gap-6 md:grid-cols-3">
+   <div className="grid gap-8 md:grid-cols-3">
 
       {/* CARD 1 */}
       <Link href="/corsi/danza-del-ventre">
@@ -180,12 +179,12 @@ export default function Home() {
           <img
             src="/images/foto6.jpg"
             alt="Corso danza del ventre"
-            className="h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
+            className="h-[380px] sm:h-[450px] lg:h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
           />
         </div>
 
         <div className={`p-8 text-center `}>
-       <h3 className={`font-serif text-5xl font-bold text-yellow-400 `}>
+       <h3 className="font-serif text-4xl font-bold leading-tight text-yellow-400 sm:text-5xl">
   Corsi di Danza del Ventre
 </h3>
         </div>
@@ -198,12 +197,12 @@ export default function Home() {
           <img
             src="/images/foto8.jpg"
             alt="Corso di samba"
-            className="h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
+            className="h-[380px] sm:h-[450px] lg:h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
           />
         </div>
 
         <div className={`p-8 text-center `}>
-          <h3 className={`font-serif text-5xl font-bold text-yellow-400 `}>
+          <h3 className="font-serif text-4xl font-bold leading-tight text-yellow-400 sm:text-5xl">
             Corsi di Samba
           </h3>
         </div>
@@ -216,12 +215,11 @@ export default function Home() {
           <img
             src="/images/foto7.jpg"
             alt="Spettacoli"
-            className="h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
+            className="h-[380px] sm:h-[450px] lg:h-[500px] w-full object-cover transition duration-700 group-hover:scale-110"
           />
         </div>
-
         <div className={`p-8 text-center `}>
-          <h3 className={`font-serif text-5xl font-bold text-yellow-400 `}>
+          <h3 className="font-serif text-4xl font-bold leading-tight text-yellow-400 sm:text-5xl">
             Spettacoli per eventi
           </h3>
         </div>
@@ -249,7 +247,7 @@ export default function Home() {
   </div>
 </section>
 <section className="bg-[#f7f1df] py-24">
-  <div className="mx-auto max-w-[1800px] px-6">
+  <div className="mx-auto max-w-[1800px] px-6 sm:px-8 lg:px-10">
 
     {/* Titolo */}
     <div className="mx-auto mb-20 max-w-5xl text-center">
