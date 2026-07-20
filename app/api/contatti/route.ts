@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { destinatari, resend } from "../../lib/mail";
+import { getResend } from "@/app/lib/mail";
 
 type ContactRequest = {
   nome?: string;
@@ -11,6 +11,12 @@ type ContactRequest = {
   privacy?: boolean;
 };
 
+const destinatari: Record<string, string> = {
+  informazioni: "info@elisabettamancini.it",
+  "danza-del-ventre": "danzadelventre@elisabettamancini.it",
+  samba: "samba@elisabettamancini.it",
+  spettacoli: "spettacoli@elisabettamancini.it",
+};
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")
@@ -22,6 +28,7 @@ function escapeHtml(value: string) {
 
 export async function POST(request: Request) {
   try {
+       
     const body = (await request.json()) as ContactRequest;
 
     const nome = body.nome?.trim() ?? "";
@@ -74,6 +81,8 @@ export async function POST(request: Request) {
     const safeTelefono = escapeHtml(telefono || "Non indicato");
     const safeArgomento = escapeHtml(argomento);
     const safeMessaggio = escapeHtml(messaggio).replaceAll("\n", "<br />");
+
+    const resend = getResend();
 
     const { error } = await resend.emails.send({
       from: "Sito Elisabetta Mancini <contatti@elisabettamancini.it>",
