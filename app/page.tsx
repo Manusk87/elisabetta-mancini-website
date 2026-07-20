@@ -100,8 +100,8 @@ export default function Home() {
 </section>
 
      {/* CHI SONO */}
-<section className="bg-[#f7f1df] py-24">
- <div className="mx-auto grid max-w-[1800px] items-center gap-10 px-6 md:grid-cols-[1.2fr_1fr_1.2fr]">
+<section className="bg-[#f7f1df] py-12 md:py-24">
+  <div className="mx-auto grid max-w-[1800px] items-center gap-6 px-6 md:grid-cols-[1.2fr_1fr_1.2fr] md:gap-10">
 
     {/* IMMAGINE SINISTRA */}
     <div className="overflow-hidden rounded-2xl shadow-2xl">
@@ -114,9 +114,8 @@ export default function Home() {
 
 {/* TESTO CENTRALE */}
 <div className="text-center">
-
   <p
-    className={`mt-10 font-serif text-base leading-relaxed text-gray-700 sm:text-lg md:text-2xl ${bodyFont.className}`}
+    className={`mt-0 font-serif text-[18px] leading-relaxed text-gray-700 sm:text-xl md:mt-10 md:text-2xl ${bodyFont.className}`}
   >
     Sono un'insegnante e performer di danza del ventre e samba brasiliano
     a Perugia dal 2010.
