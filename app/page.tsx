@@ -115,18 +115,22 @@ export default function Home() {
    {/* TESTO CENTRALE */}
 <div className="text-center">
 
-  <p className={`mt-10 font-serif text-2xl leading-relaxed text-gray-700 md:text-2xl ${bodyFont.className}`}>
+<p
+  className={`mt-10 font-serif text-base sm:text-lg md:text-2xl ${bodyFont.className}`}
+>
     Sono un'insegnante e performer di danza del ventre e samba brasiliano
     a Perugia dal 2010.
   </p>
 
-  <p className={`mt-8 font-serif text-2xl leading-relaxed text-gray-700 md:text-2xl ${bodyFont.className}`}>
+  <p
+    className={`mt-8 font-serif text-base sm:text-lg md:text-2xl ${bodyFont.className}`}>
+  
     Con anni di esperienza, organizzo corsi per tutti i livelli,
     spettacoli ed esibizioni artistiche per matrimoni,
     eventi privati e serate speciali in tutta Italia.
   </p>
 
-  <p className={`mt-8 font-serif text-2xl leading-relaxed text-gray-700 md:text-2xl ${bodyFont.className}`}>
+  <p className={`mt-8 font-serif text-base sm:text-lg md:text-2xl ${bodyFont.className}`}>
     La mia missione è trasmettere attraverso la danza benessere,
     energia ed espressione personale.
     Nei miei corsi accompagno ogni allieva in un percorso di crescita,
