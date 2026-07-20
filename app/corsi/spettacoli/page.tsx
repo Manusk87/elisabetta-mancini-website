@@ -88,12 +88,11 @@ export default function Spettacoli() {
       </header>
 
       {/* HERO */}
-    <section
-  className="relative flex min-h-[75vh] items-center overflow-hidden bg-black bg-cover bg-no-repeat text-white"
+<section
+  className="relative flex min-h-[75vh] items-center overflow-hidden bg-black bg-cover bg-no-repeat text-white bg-[position:72%_75%] md:bg-center"
   style={{
     backgroundImage:
       "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.72)), url('/images/foto7.jpg')",
-    backgroundPosition: "center 75%",
   }}
 >
         <div className="mx-auto w-full max-w-7xl px-6 py-24 text-center">
