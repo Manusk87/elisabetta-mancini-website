@@ -115,7 +115,7 @@ export default function Home() {
 {/* TESTO CENTRALE */}
 <div className="text-center">
   <p
-    className={`mt-0 font-serif text-[18px] leading-relaxed text-gray-700 sm:text-xl md:mt-10 md:text-2xl ${bodyFont.className}`}
+    className={`mt-0 font-serif text-base leading-relaxed text-gray-700 sm:text-xl md:mt-10 md:text-2xl ${bodyFont.className}`}
   >
     Sono un'insegnante e performer di danza del ventre e samba brasiliano
     a Perugia dal 2010.
