@@ -122,7 +122,7 @@ export default function Samba() {
 
       {/* HERO */}
       <section
-       className="relative flex min-h-[75vh] items-center overflow-hidden bg-black bg-cover bg-no-repeat text-white bg-[position:100%_top] md:bg-center"
+       className="relative flex min-h-[75vh] items-center overflow-hidden bg-black bg-cover bg-no-repeat text-white bg-[position:5%_top] md:bg-center"
         style={{
           backgroundImage:
             "linear-gradient(rgba(0,0,0,0.52), rgba(0,0,0,0.72)), url('/images/foto8.jpg')",
