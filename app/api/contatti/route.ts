@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getResend } from "@/app/lib/mail";
+import { destinatari, getResend } from "@/app/lib/mail";
 
 type ContactRequest = {
   nome?: string;
@@ -11,12 +11,6 @@ type ContactRequest = {
   privacy?: boolean;
 };
 
-const destinatari: Record<string, string> = {
-  informazioni: "info@elisabettamancini.it",
-  "danza-del-ventre": "danzadelventre@elisabettamancini.it",
-  samba: "samba@elisabettamancini.it",
-  spettacoli: "spettacoli@elisabettamancini.it",
-};
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")

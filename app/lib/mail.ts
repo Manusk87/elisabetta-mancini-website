@@ -11,7 +11,7 @@ export function getResend() {
 }
 
 export const destinatari: Record<string, string> = {
-  "informazioni-generali": "info@elisabettamancini.it",
+  informazioni: "info@elisabettamancini.it",
   "danza-del-ventre": "danzadelventre@elisabettamancini.it",
   samba: "samba@elisabettamancini.it",
   spettacoli: "spettacoli@elisabettamancini.it",
