@@ -146,27 +146,25 @@ className="scroll-mt-32 py-24"
     </p>
 
     <div className="mt-10 flex justify-center gap-8">
-      <a
-        href="Facebook:
-        https://www.facebook.com/ElisabettaManciniDanceshow/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex h-16 w-16 items-center justify-center rounded-full bg-[#1877F2] text-white transition duration-300 hover:scale-110 hover:shadow-xl"
-        aria-label="Facebook"
-      >
-        <FaFacebookF size={30} />
-      </a>
+<a
+  href="https://www.facebook.com/ElisabettaManciniDanceshow/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex h-16 w-16 items-center justify-center rounded-full bg-[#1877F2] text-white transition duration-300 hover:scale-110 hover:shadow-xl"
+  aria-label="Facebook"
+>
+  <FaFacebookF size={30} />
+</a>
 
-      <a
-        href="Instagram:
-        https://www.instagram.com/elisabetta_mancini_danceshow/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white transition duration-300 hover:scale-110 hover:shadow-xl"
-        aria-label="Instagram"
-      >
-        <FaInstagram size={32} />
-      </a>
+   <a
+  href="https://www.instagram.com/elisabetta_mancini_danceshow/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white transition duration-300 hover:scale-110 hover:shadow-xl"
+  aria-label="Instagram"
+>
+  <FaInstagram size={32} />
+</a>
     </div>
 
     <div className="mt-12">
